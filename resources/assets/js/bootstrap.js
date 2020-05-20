@@ -51,3 +51,7 @@ if (token) {
 //     broadcaster: 'pusher',
 //     key: 'your-pusher-key'
 // });
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
